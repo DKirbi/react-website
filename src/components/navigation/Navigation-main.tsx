@@ -41,6 +41,7 @@ export const NavigationMain: FC<NavigationMainProps> = () => {
   const navLinks: ReadonlyArray<NavLinkItem> = [
     { name: t("nav.aboutMe"), href: "home" },
     { name: t("nav.resume"), href: "resume" },
+    { name: t("nav.photos"), href: "photos" },
   ];
 
   // Switching language navigates to the same slug under the new locale (e.g.
